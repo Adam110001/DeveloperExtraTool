@@ -12,6 +12,8 @@ struct DeveloperExtraToolApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(width: 750, height: 500)
         }
+        .windowResizability(.contentSize)
     }
 }

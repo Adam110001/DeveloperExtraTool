@@ -14,6 +14,7 @@
 		3F38F4D62C499C6C00045C03 /* DeveloperExtraToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38F4D52C499C6C00045C03 /* DeveloperExtraToolTests.swift */; };
 		3F38F4E02C499C6C00045C03 /* DeveloperExtraToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38F4DF2C499C6C00045C03 /* DeveloperExtraToolUITests.swift */; };
 		3F38F4E22C499C6C00045C03 /* DeveloperExtraToolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38F4E12C499C6C00045C03 /* DeveloperExtraToolUITestsLaunchTests.swift */; };
+		3F38F4EF2C49A0F300045C03 /* FileManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38F4EE2C49A0F300045C03 /* FileManagement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3F38F4DB2C499C6C00045C03 /* DeveloperExtraToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeveloperExtraToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F38F4DF2C499C6C00045C03 /* DeveloperExtraToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperExtraToolUITests.swift; sourceTree = "<group>"; };
 		3F38F4E12C499C6C00045C03 /* DeveloperExtraToolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperExtraToolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F38F4EE2C49A0F300045C03 /* FileManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				3F38F4C32C499C6B00045C03 /* DeveloperExtraToolApp.swift */,
 				3F38F4C52C499C6B00045C03 /* ContentView.swift */,
+				3F38F4EE2C49A0F300045C03 /* FileManagement.swift */,
 				3F38F4C72C499C6C00045C03 /* Assets.xcassets */,
 				3F38F4CC2C499C6C00045C03 /* DeveloperExtraTool.entitlements */,
 				3F38F4C92C499C6C00045C03 /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F38F4C62C499C6B00045C03 /* ContentView.swift in Sources */,
+				3F38F4EF2C49A0F300045C03 /* FileManagement.swift in Sources */,
 				3F38F4C42C499C6B00045C03 /* DeveloperExtraToolApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
